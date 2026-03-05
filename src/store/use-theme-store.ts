@@ -73,6 +73,7 @@ export const useThemeStore = defineStore('theme', () => {
         {
           duration: 400,
           easing: 'ease-in',
+          fill: 'both',
           pseudoElement: isDark.value
             ? '::view-transition-new(root)'
             : '::view-transition-old(root)',
